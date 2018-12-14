@@ -20,7 +20,7 @@ export const history = createBrowserHistory();
 
 const Index = ({ store }) => (
   <Provider store={store}>
-    <Router history={history}>
+    <Router history={history} basename={process.env.PUBLIC_URL}>
       <App />
     </Router>
   </Provider>
