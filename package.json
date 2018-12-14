@@ -28,7 +28,7 @@
     "predeploy": "npm run build",
     "deploy": "gh-pages -d build"
   },
-  "homepage": "https://github.com/carlfsmithiii/kwitter",
+  "homepage": "https://carlfsmithiii.github.io/kwitter",
   "eslintConfig": {
     "extends": "react-app"
   },

@@ -15,12 +15,12 @@ const store = createStore(rootReducer, /* preloadedState, */ composeEnhancers(
     applyMiddleware(thunk)
   ));
 
-export const history = createBrowserHistory();
+export const history = createBrowserHistory({basename: process.env.PUBLIC_URL});
 
 
 const Index = ({ store }) => (
   <Provider store={store}>
-    <Router history={history}>
+    <Router history={history} >
       <App />
     </Router>
   </Provider>
