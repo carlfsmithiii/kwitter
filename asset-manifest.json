@@ -1,6 +1,6 @@
 {
-  "main.js": "/kwitter/static/js/main.ef8758f6.chunk.js",
-  "main.js.map": "/kwitter/static/js/main.ef8758f6.chunk.js.map",
+  "main.js": "/kwitter/static/js/main.e931e851.chunk.js",
+  "main.js.map": "/kwitter/static/js/main.e931e851.chunk.js.map",
   "static/js/1.72031f48.chunk.js": "/kwitter/static/js/1.72031f48.chunk.js",
   "static/js/1.72031f48.chunk.js.map": "/kwitter/static/js/1.72031f48.chunk.js.map",
   "runtime~main.js": "/kwitter/static/js/runtime~main.1bef2d23.js",
@@ -8,6 +8,6 @@
   "static/media/kweet2.jpg": "/kwitter/static/media/kweet2.5f64a522.jpg",
   "static/media/Kweet.png": "/kwitter/static/media/Kweet.55890f9a.png",
   "index.html": "/kwitter/index.html",
-  "precache-manifest.e419fc0f2dd12af8541ddb8a8844804d.js": "/kwitter/precache-manifest.e419fc0f2dd12af8541ddb8a8844804d.js",
+  "precache-manifest.4f181e20f0f0ada7eef5ade3dd00850e.js": "/kwitter/precache-manifest.4f181e20f0f0ada7eef5ade3dd00850e.js",
   "service-worker.js": "/kwitter/service-worker.js"
 }

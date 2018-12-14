@@ -1,7 +1,7 @@
 self.__precacheManifest = [
   {
-    "revision": "ef8758f651889365f51b",
-    "url": "/kwitter/static/js/main.ef8758f6.chunk.js"
+    "revision": "e931e851c1e22846ff83",
+    "url": "/kwitter/static/js/main.e931e851.chunk.js"
   },
   {
     "revision": "72031f488e5ce280ef5c",
@@ -20,7 +20,7 @@ self.__precacheManifest = [
     "url": "/kwitter/static/media/Kweet.55890f9a.png"
   },
   {
-    "revision": "68a2a6c887f57e35b9360ba499a045b3",
+    "revision": "eabf528fc7e40f4995f9ff211070648f",
     "url": "/kwitter/index.html"
   }
 ];
