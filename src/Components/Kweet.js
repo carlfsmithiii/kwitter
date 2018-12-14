@@ -49,8 +49,7 @@ class Kweet extends Component {
     // let userPhotoSrc =
     //   "http://www.dealnetcapital.com/wp-content/blogs.dir/9/files/2014/10/blank-profile.png";
     let userHasPic = false
-    let userPhotoSrc = userHasPic ? `https://kwitter-api.herokuapp.com/users/${this.props.userId}/picture`: 
-      `https://picsum.photos/${this.props.userId}`;
+    let userPhotoSrc = userHasPic ? `https://kwitter-api.herokuapp.com/users/${this.props.userId}/picture`: `https://picsum.photos/500/500?image=${this.props.userId}`;
 
     return (
       <Card className={classes.pos}>

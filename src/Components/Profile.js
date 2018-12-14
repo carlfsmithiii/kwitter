@@ -12,6 +12,7 @@ import ImageUpload from "./ImageUpload";
 import { Nav } from "./index";
 import { updateUser, deleteUser } from "../ActionCreators/actions";
 import moment from "moment";
+import { API_DOMAIN } from '../Constants';
 
 class Profile extends Component {
   handleDeleteUser = () => {
@@ -50,13 +51,13 @@ class Profile extends Component {
                 </div>
                 {this.props.loggedInUsersProfile && this.props.image ? (
                   <CardMedia
-                    image={`https://kwitter-api.herokuapp.com/users/${
+                    image={`${API_DOMAIN}/users/${
                       this.props.user.id
                     }/picture?random=${this.props.image}`}
                     style={{ backgroundSize: "contain" }}
                   >
                     <img
-                      src={`https://kwitter-api.herokuapp.com/users/${
+                      src={`${API_DOMAIN}/users/${
                         this.props.user.id
                       }/picture?random=${this.props.image}`}
                       style={{ visibility: "hidden", maxWidth: "100%" }}
@@ -65,11 +66,15 @@ class Profile extends Component {
                   </CardMedia>
                 ) : (
                   <CardMedia
-                    image={`https://picsum.photos/${this.props.user.id}`}
+                    image={`https://picsum.photos/500/500?image=${
+                      this.props.userId
+                    }`}
                     style={{ backgroundSize: "contain" }}
                   >
                     <img
-                      src={`https://picsum.photos/${this.props.user.id}`}
+                      src={`https://picsum.photos/500/500?image=${
+                        this.props.userId
+                      }`}
                       style={{ visibility: "hidden", maxWidth: "100%" }}
                       alt="hidden"
                     />
