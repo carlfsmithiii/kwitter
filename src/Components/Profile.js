@@ -67,13 +67,13 @@ class Profile extends Component {
                 ) : (
                   <CardMedia
                     image={`https://picsum.photos/500/500?image=${
-                      this.props.userId
+                      this.props.user.id
                     }`}
                     style={{ backgroundSize: "contain" }}
                   >
                     <img
                       src={`https://picsum.photos/500/500?image=${
-                        this.props.userId
+                        this.props.user.id
                       }`}
                       style={{ visibility: "hidden", maxWidth: "100%" }}
                       alt="hidden"
